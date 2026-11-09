@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Book a table — MRB Matcha Bar · Counter, tatami room or terrace</title>
+<meta name="description" content="Book a table at MRB Matcha Bar in Malasaña, Madrid: the matcha counter, the tatami room or the lantern terrace.">
+<meta name="theme-color" content="#F6A6C1">
+<meta property="og:title" content="MRB Matcha Bar — Book a table">
+<meta property="og:image" content="og.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="mrb.css">
+<script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.MRB)document.documentElement.classList.remove("js")},5000)</script>
+</head>
+<body data-page="reserve" data-title-es="Reservar mesa — MRB Matcha Bar · Barra, sala de tatami o terraza">
+<main id="main">
+  <header class="phead phead--pink on-pink">
+    <div class="phead__art" data-phead-art aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="label" data-es="Reservas · Calle del Pez 21">Reservations · Calle del Pez 21</p>
+      <h1 class="display display--xl" style="margin-top:16px" data-split data-es="Guarda<br>tu cojín.">Save your<br>cushion.</h1>
+      <p class="phead__sub" data-rv data-es="Barra de matcha, sala de tatami o terraza con farolillos. Reserva en un minuto y te esperamos con el batidor en la mano.">Matcha counter, tatami room or lantern terrace. Book in a minute and we will be waiting, whisk in hand.</p>
+    </div>
+  </header>
+  <section id="book">
+    <div class="book" data-book>
+      <form class="panel" data-bform novalidate>
+        <div class="bstep"><h3><b>01</b><span data-es="Dónde">Where</span></h3><div class="seats" data-seats></div></div>
+        <div class="bstep"><h3><b>02</b><span data-es="Cuántos">How many</span></h3><div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><div class="stepper"><button type="button" data-g="-1" aria-label="−">−</button><output data-guests>2</output><button type="button" data-g="1" aria-label="+">+</button></div><span class="note" data-gnote></span></div></div>
+        <div class="bstep"><h3><b>03</b><span data-es="Qué día">Which day</span></h3>
+          <div class="cal__head"><b data-cal-t></b><div class="cal__nav"><button type="button" data-cal-p aria-label="Previous month">‹</button><button type="button" data-cal-n aria-label="Next month">›</button></div></div>
+          <div class="cal" data-cal></div></div>
+        <div class="bstep"><h3><b>04</b><span data-es="A qué hora">What time</span></h3><div class="times" data-times></div></div>
+        <div class="bstep"><h3><b>05</b><span data-es="Tus datos">Your details</span></h3>
+          <div class="fgrid">
+            <label class="field"><span data-es="Nombre">Name</span><input class="input" name="n" required autocomplete="name"></label>
+            <label class="field"><span>Email</span><input class="input" name="e" type="email" required autocomplete="email"></label>
+            <label class="field"><span data-es="Teléfono">Phone</span><input class="input" name="p" type="tel" autocomplete="tel" placeholder="+34 600 000 000"></label>
+            <label class="field"><span data-es="¿Algo especial?">Occasion</span><select class="input" name="o"><option data-es="Ninguna en concreto">Just because</option><option data-es="Cumpleaños">Birthday</option><option data-es="Cita">Date</option><option data-es="Reunión de trabajo">Work meeting</option></select></label>
+            <label class="field full"><span data-es="Notas (alergias, carrito de bebé…)">Notes (allergies, pram…)</span><textarea class="input" name="x"></textarea></label>
+            <label class="check full"><input type="checkbox" name="ok" required> <span data-es="Sé que MRB es una marca concepto: esta reserva es una demo y no se envía nada.">I know MRB is a concept brand: this booking is a demo and nothing is sent.</span></label>
+          </div></div>
+      </form>
+      <aside class="panel bsum" aria-live="polite">
+        <p class="label" data-es="Tu reserva">Your booking</p>
+        <div style="width:150px;justify-self:center" data-bsum-art></div>
+        <dl data-bsum></dl>
+        <button class="btn btn--pink btn--block" type="button" data-bconfirm disabled data-es="Confirmar reserva →">Confirm booking →</button>
+        <p class="note" data-bmiss></p>
+      </aside>
+    </div>
+    <div class="wrap" data-ticket hidden style="padding-top:50px;padding-bottom:60px"></div>
+  </section>
+</main>
+<footer id="site-foot"></footer>
+<script src="gsap.min.js" defer></script>
+<script src="ScrollTrigger.min.js" defer></script>
+<script src="lenis.min.js" defer></script>
+<script src="data.js" defer></script>
+<script src="mrb.js" defer></script>
+<script src="pages.js" defer></script>
+</body>
+</html>
