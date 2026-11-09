@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MRB Matcha Bar — Matcha, coffee, custom tea &amp; milkshakes in Madrid</title>
+<meta name="description" content="MRB Matcha Bar: ceremonial matcha, hojicha, coffee, custom tea blends and milkshakes in Malasaña, Madrid. Order delivery in 30 minutes or book a table. Concept brand by María Luisa Ros Bolea.">
+<meta name="theme-color" content="#FFD45E">
+<meta property="og:title" content="MRB Matcha Bar — Whisked slow. Built by your scroll.">
+<meta property="og:description" content="Matcha, coffee, custom tea and milkshakes in Madrid. Delivery in 30 minutes.">
+<meta property="og:image" content="og.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="dela-gothic-one-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="mrb.css">
+<script>document.documentElement.classList.add("js");setTimeout(function(){var g=document.querySelector(".gate");if(g&&!window.MRB){g.classList.add("is-gone")}var w=document.querySelector(".wipe");if(!window.MRB)document.documentElement.classList.remove("js")},5000)</script>
+</head>
+<body data-page="home" data-title-es="MRB Matcha Bar — Matcha, café, té a medida y batidos en Madrid">
+
+<!-- ============ GATE ============ -->
+<div class="gate" id="gate" role="dialog" aria-label="Welcome to MRB Matcha Bar">
+  <div class="gate__rod"></div>
+  <div class="gate__noren" aria-hidden="true"><div data-noren></div><div data-noren></div><div data-noren></div></div>
+  <div class="gate__box">
+    <p class="label" data-es="Abierto · Malasaña, Madrid">Open · Malasaña, Madrid</p>
+    <h1 class="display display--sm" data-es="Pasa,<br>que batimos.">Come in,<br>we're whisking.</h1>
+    <p data-es="Esta web suena: cubitos, leche, el batidor de bambú. ¿Entras con sonido?">This site makes noise: ice, milk, the bamboo whisk. Enter with sound?</p>
+    <div class="row-btns" style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+      <button class="btn btn--pink" type="button" data-enter="1" data-es="Entrar con sonido">Enter with sound</button>
+      <button class="btn" type="button" data-enter="0" data-es="Entrar en silencio">Enter quietly</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="hero-t">
+    <div class="hero__awn" aria-hidden="true"></div>
+    <div class="flyers" data-hero-flyers aria-hidden="true"></div>
+    <div class="wrap hero__in">
+      <div>
+        <div class="sign" data-sign>
+          <div class="sign__top"><span data-es="Matcha · Café · Té · Batidos">Matcha · Coffee · Tea · Shakes</span><span>Calle del Pez 21 · Madrid</span></div>
+          <div class="sign__title">
+            <svg class="sign__k" viewBox="0 0 140 140" aria-hidden="true" data-kanji></svg>
+            <h1 id="hero-t">MRB<small>matcha bar</small></h1>
+          </div>
+          <div class="sign__bot">
+            <div class="sign__menu"><span>Matcha</span><span data-es="Batidos">Shakes</span><span data-es="Té a medida">Custom tea</span><span data-es="Café">Coffee</span></div>
+            <div class="sign__stamp" data-stamp aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="hero__copy">
+          <h2 class="display" data-split data-es="Matcha, batido<br>sin prisa. Montado<br>con tu scroll.">Matcha, whisked<br>slow. Built by<br>your scroll.</h2>
+          <div class="hero__cta" data-rv style="--rd:300ms">
+            <a class="btn btn--pink" href="menu.html" data-es="Pedir a domicilio →">Order delivery →</a>
+            <a class="btn" href="reserve.html" data-es="Reservar mesa">Book a table</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__glass" data-hero-glass data-rv style="--rd:200ms"></div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true"><i></i><span data-es="Baja y mira cómo se monta">Scroll to build a drink</span></div>
+  </section>
+
+  <div class="mq" aria-hidden="true"><div class="mq__t" data-mq></div></div>
+
+  <!-- ============ BUILD (pinned) ============ -->
+  <section class="build" id="build" aria-labelledby="build-t">
+    <div class="build__pin" data-build-pin>
+      <div class="flyers" data-build-flyers aria-hidden="true"></div>
+      <div class="wrap build__in">
+        <div class="build__txt">
+          <p class="label" data-es="Cómo se hace un Matcha Boba Float">How a Matcha Boba Float is made</p>
+          <h2 class="display display--sm" id="build-t" data-split data-es="Noventa segundos.<br>Cero atajos.">Ninety seconds.<br>Zero shortcuts.</h2>
+          <p class="build__step" data-build-step>00 / 06</p>
+          <p class="build__cap" data-build-cap><span>Start with an empty glass.</span></p>
+          <p class="build__desc" data-build-desc>Scroll slowly. Every layer goes in by hand, in this order.</p>
+          <div class="build__tags" data-build-tags></div>
+        </div>
+        <div class="build__stage">
+          <div class="timer" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="#1F2B16" stroke-width="5" stroke-dasharray="289" stroke-dashoffset="289" data-timer-ring stroke-linecap="round"/></svg><span data-timer>0:00</span></div>
+          <div class="build__glass" data-build-glass><div class="build__pour" data-pour></div></div>
+          <div class="ready" data-ready data-es="¡Listo!">Ready!</div>
+        </div>
+      </div>
+      <div class="build__progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+
+  <!-- ============ REAL (video reel) ============ -->
+  <section class="reel" id="real" aria-labelledby="reel-t">
+    <div class="torn torn--top" data-torn="#E86C98"></div>
+    <div class="reel__pin halftone">
+      <h2 class="display display--xl reel__t" id="reel-t" data-split data-es="Bebidas de verdad.<br>Sorbos de verdad.">Real drinks.<br>Real slurps.</h2>
+      <div class="reel__frames">
+        <figure class="frame" data-frame="0"><video src="whisk.mp4" poster="whisk-poster.jpg" muted loop playsinline preload="metadata" aria-label="Bamboo whisk frothing matcha in a ceramic bowl"></video><figcaption data-es="Batido a mano, siempre">Hand-whisked, always</figcaption></figure>
+        <figure class="frame" data-frame="1"><img src="pour.webp" alt="Matcha being poured into a speckled ceramic cup" loading="lazy"><figcaption data-es="Matcha de Uji, recién batido">Uji matcha, just whisked</figcaption></figure>
+        <figure class="frame" data-frame="2"><video src="shake.mp4" poster="shake-poster.jpg" muted loop playsinline preload="metadata" aria-label="Strawberry Meringue Shake with strawberry coulis running down the glass"></video><figcaption data-es="Batido de fresa y merengue">Strawberry Meringue Shake</figcaption></figure>
+        <figure class="frame" data-frame="3"><video src="sip.mp4" poster="sip-poster.jpg" muted loop playsinline preload="metadata" aria-label="A customer smiling after the first sip of a hot drink"></video><figcaption data-es="La cara del primer sorbo">The first-sip face</figcaption></figure>
+      </div>
+      <p class="reel__sub label" data-es="De nuestra barra a tu móvil">From our bar to your feed</p>
+    </div>
+  </section>
+
+  <!-- ============ WHISK ============ -->
+  <section class="whisk on-green" id="whisk" aria-labelledby="whisk-t">
+    <div class="torn torn--top" data-torn="#86B23D"></div>
+    <div class="wrap whisk__in">
+      <div style="display:grid;gap:22px">
+        <p class="label" data-es="Tu turno">Your turn</p>
+        <h2 class="display" id="whisk-t" data-split data-es="Ahora bate.<br>Con ganas.">Now whisk.<br>Like you<br>mean it.</h2>
+        <p style="max-width:40ch;font-weight:500;font-size:18px" data-rv data-es="Arrastra en círculos (o en zigzag, como los maestros) sobre el cuenco hasta que salga espuma. Sin espuma no hay matcha.">Drag in circles (or zigzag, like the masters) over the bowl until it froths. No froth, no matcha.</p>
+        <div class="meter" data-rv>
+          <div class="meter__bar"><i data-meter></i></div>
+          <div class="meter__t"><span data-meter-label>Lumpy</span><span data-meter-n>0%</span></div>
+        </div>
+        <div class="chips" data-rv><button class="btn btn--sm" type="button" data-whisk-reset data-es="Otra vez">Again</button><button class="btn btn--sm btn--butter" type="button" data-add="uji-latte" hidden data-whisk-reward data-es="Pedir un Uji Cream Latte · 5,60 €">Order an Uji Cream Latte · €5.60</button></div>
+      </div>
+      <div class="bowl" data-bowl data-grab aria-label="Matcha bowl: drag in circles to whisk" role="img">
+        <canvas data-bowl-cv></canvas>
+        <div class="bowl__whisk" data-whisk-tool></div>
+        <div class="froth-stamp" data-froth-stamp data-es="¡Espuma perfecta!">Perfect froth!</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CHOOSE ============ -->
+  <section class="choose" id="drinks" aria-labelledby="choose-t">
+    <div class="torn torn--top" data-torn="#FBE6BF"></div>
+    <div class="choose__pin">
+      <div class="wrap choose__head">
+        <div><p class="label" data-es="Los favoritos de la barra">Bar favourites</p>
+        <h2 class="display" id="choose-t" data-split data-es="Elige tu<br>verde.">Pick your<br>green.</h2></div>
+        <a class="btn" href="menu.html" data-es="Ver la carta completa →">See the full menu →</a>
+      </div>
+      <div class="choose__track" data-choose-track></div>
+    </div>
+  </section>
+
+  <!-- ============ SPLASH (shake bar, photo series) ============ -->
+  <section class="splash" id="shakes" aria-labelledby="splash-t">
+    <div class="torn torn--top" data-torn="#F6A6C1"></div>
+    <div class="splash__pin" data-splash-pin>
+      <div class="splash__word" aria-hidden="true"><span data-splash-word></span></div>
+      <div class="splash__stage" data-splash-stage></div>
+      <div class="splash__drops" data-splash-drops aria-hidden="true"></div>
+      <div class="splash__info" data-splash-info aria-live="polite"></div>
+      <ol class="splash__dots" data-splash-dots aria-hidden="true"></ol>
+      <div class="splash__intro" data-splash-intro>
+        <div class="splash__introT">
+          <p class="label" data-es="Nueva barra de batidos">New shake bar</p>
+          <h2 class="display display--xl" id="splash-t" data-split data-es="Haz un<br>splash.">Make a<br>splash.</h2>
+          <p class="splash__lead" data-es="Cuatro batidos nuevos, fruta de verdad y cero sirope de bote. Baja y míralos caer.">Four new shakes, real fruit, zero syrup from a bottle. Scroll down and watch them land.</p>
+        </div>
+        <figure class="splash__vidbox"><video class="splash__vid" src="splash.mp4" poster="splash-poster.jpg" muted loop playsinline preload="metadata" aria-label="Strawberry milk pouring with whole strawberries splashing in"></video></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LAB ============ -->
+  <section class="lab on-pink" id="lab" aria-labelledby="lab-t">
+    <div class="torn torn--top" data-torn="#F6A6C1"></div>
+    <div class="wrap">
+      <p class="label" data-es="Laboratorio de bebidas">The drink lab</p>
+      <h2 class="display" id="lab-t" data-split data-es="Hazlo<br>a tu manera." style="margin:18px 0 clamp(30px,4vw,60px)">Make it<br>yours.</h2>
+      <div class="lab__in">
+        <div class="lab__preview" data-rv>
+          <div class="lab__drink" data-lab-drink></div>
+          <p class="lab__name" data-lab-name></p>
+          <p class="lab__price" data-lab-price></p>
+          <button class="btn btn--ink" type="button" data-lab-add data-es="Añadir al pedido →">Add to order →</button>
+        </div>
+        <div class="opts" data-lab-opts></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DELIVERY ============ -->
+  <section class="deliv" id="delivery" aria-labelledby="deliv-t">
+    <div class="torn torn--top" data-torn="#A8D8E8"></div>
+    <div class="deliv__pin">
+      <div class="wrap deliv__in">
+        <div>
+          <p class="label" data-es="Reparto propio · en bici eléctrica">Our own riders · e-bikes</p>
+          <h2 class="display" id="deliv-t" data-split data-es="Frío en tu<br>puerta en 30.">Cold at your<br>door in 30.</h2>
+          <div class="eta"><span data-eta>30</span><small>min</small></div>
+          <div class="zones" data-zones><span>Malasaña</span><span>Chueca</span><span>Chamberí</span><span>Argüelles</span><span>Lavapiés</span><span>La Latina</span><span>Salamanca</span><span>Retiro</span></div>
+          <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn--pink" href="menu.html" data-es="Pedir ahora →">Order now →</a><span class="note" style="align-self:center" data-es="Envío gratis desde 25 €. Hielo extra, siempre.">Free delivery over €25. Extra ice, always.</span></div>
+        </div>
+        <div class="map" data-map></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISIT ============ -->
+  <section class="visit" id="visit" aria-labelledby="visit-t">
+    <div class="torn torn--top" data-torn="#2F5A1C"></div>
+    <div class="wrap visit__in">
+      <div>
+        <p class="label" style="color:var(--butter)" data-es="Ven a la barra">Come to the bar</p>
+        <h2 class="display display--xl" id="visit-t" data-split data-es="Coge un<br>cojín.">Pull up a<br>cushion.</h2>
+        <div class="visit__info" data-rv>
+          <p><b>Calle del Pez 21</b> · Malasaña, Madrid</p>
+          <p data-es="Todos los días de 8:00 a 21:00. Barra de 10 plazas, sala de tatami para 8 y terraza con farolillos.">Every day 8:00–21:00. A 10-seat counter, a tatami room for 8 and a lantern-lit terrace.</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:10px"><a class="btn btn--butter" href="reserve.html" data-es="Reservar mesa →">Book a table →</a><a class="btn" href="menu.html" data-es="Ver la carta">See the menu</a></div>
+        </div>
+      </div>
+      <div class="stack" data-stack>
+        <button class="btn btn--sm btn--pink stack__btn" type="button" data-knock data-es="¡Tíralos!">Knock 'em over</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-foot"></footer>
+
+<script src="gsap.min.js" defer></script>
+<script src="ScrollTrigger.min.js" defer></script>
+<script src="lenis.min.js" defer></script>
+<script src="data.js" defer></script>
+<script src="mrb.js" defer></script>
+<script src="home.js" defer></script>
+</body>
+</html>
